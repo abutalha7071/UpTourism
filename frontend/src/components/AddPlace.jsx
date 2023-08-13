@@ -67,19 +67,19 @@ const Signup = () => {
       <div className="card w-25 shadow-lg rounded-5">
         <div className="card-body p-5">
           <i className="fa-solid fa-lock fa-3x d-block text-center" />
-          <h2 className="text-center my-5">Signup Form</h2>
+          <h2 className="text-center my-5">Add Place</h2>
           <form onSubmit={signupForm.handleSubmit}>
             <label htmlFor="">Name</label>
             <input className="form-control mb-4 rounded-5" type="text" name="name" onChange={signupForm.handleChange} value={signupForm.values.name} />
-            <label htmlFor="">Email</label>
-            <input className="form-control mb-4 rounded-5" type="email" name="email" onChange={signupForm.handleChange} value={signupForm.values.email} />
-            <label htmlFor="">Password</label>
-            <input className="form-control mb-4 rounded-5" type="password" name="password" onChange={signupForm.handleChange}  value={signupForm.values.password} />
+            <label htmlFor="">Discription</label>
+            <input className="form-control mb-4 rounded-5" type="text" name="discription" onChange={signupForm.handleChange} value={signupForm.values.email} />
+            <label htmlFor="">Upload File</label>
+            <input type="file" onChange={uploadFile} />
             
             
 
             <button className="btn btn-danger w-100 mt-4 rounded-5">
-              Signup
+              Upload
             </button>
           </form>
         </div>
