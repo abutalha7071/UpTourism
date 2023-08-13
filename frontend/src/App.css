@@ -1,0 +1,38 @@
+.myclass{
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-item .active{
+  font-weight: bold;
+  color: red !important;
+  border-bottom: 2px solid red;
+}
+
+.error-label{
+  color: red;
+  display: inline;
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.slide1{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/SDC12395sd.JPG/1280px-SDC12395sd.JPG');
+  height: 90vh;
+  background-size: cover;
+  padding: 50px;
+}
+.slide2{
+  background-image: url('https://images.livemint.com/img/2020/11/12/1600x900/PTI12-11-2020_000196B_1605201179272_1605201199834.jpg');
+  height: 90vh;
+  background-size: cover;
+  padding: 50px;
+}
+.slide3{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg/1200px-Taj_Mahal%2C_Agra%2C_India_edit3.jpg');
+  height: 100vh;
+  background-size: cover;
+  padding: 30px;
+}
