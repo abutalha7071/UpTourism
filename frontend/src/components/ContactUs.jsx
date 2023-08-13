@@ -2,26 +2,93 @@ import React from 'react'
 
 const ContactUs = () => {
     return (
-        <div className="d-flex justify-content-center align-items-center vh-100">
-          <div className="card w-25 shadow-lg rounded-5">
-            <div className="card-body p-5">
-              <i className="fa-solid fa-lock fa-3x d-block text-center" />
-              <h2 className="text-center my-5">Contact Us</h2>
-              <form>
-              <label htmlFor="">Name = Abutalha Zaki</label>
-              <br /><br />
-              <label htmlFor="">Phone Number = 9140477071</label>
-              <br /><br />
-              <label htmlFor="">Email=abutalhazaki92@gmail.com</label>
-              <br /><br />
-              
-                
-                
-                
-              </form>
-            </div>
-          </div>
+      <>
+  <meta charSet="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact us</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <div className="container">
+    <div className="item">
+      <div className="contact">
+        <div className="first-text">Let's get in touch</div>
+        <img
+          src="https://vectorforfree.com/wp-content/uploads/2020/03/Working_Men_VectorForFree.png"
+          alt=""
+          className="image"
+        />
+        <div className="social links">
+          <span className="secnd text" style={{ fontSize: "large" }}>
+            Connect with us:
+          </span>
+          <ul className="social-media">
+            <li>
+              <a href="#">
+                <i className="bx bxl-facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bx bxl-twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bx bxl-youtube" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bx bxl-instagram" />
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div className="submit-form">
+        <h4 className="third-text">Contact Us</h4>
+        <form style={{ padding: "0 50px" }}>
+          <div className="input-box">
+            <input
+              type="text"
+              className="input"
+              placeholder="Name"
+              required=""
+            />
+            <label htmlFor="" />
+          </div>
+          <div className="input-box">
+            <input type="email" className="input" placeholder="Email" />
+            <label htmlFor="" />
+          </div>
+          <div className="input-box">
+            <input type="tel" className="input" placeholder="Phone" />
+            <label htmlFor="" />
+          </div>
+          <div className="input-box">
+            <textarea
+              name=""
+              className="input"
+              placeholder="Message"
+              required=""
+              id="message"
+              cols={30}
+              rows={10}
+              defaultValue={""}
+            />
+            <label htmlFor="" />
+          </div>
+          <input type="submit" className="Submit" />
+        </form>
+      </div>
+    </div>
+  </div>
+</>
+
+    
       );
     };
 export default ContactUs
