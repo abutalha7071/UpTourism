@@ -63,28 +63,92 @@ const Signup = () => {
   };
 
   return (
-    <div className="d-flex justify-content-center align-items-center vh-100">
-      <div className="card w-25 shadow-lg rounded-5">
-        <div className="card-body p-5">
-          <i className="fa-solid fa-lock fa-3x d-block text-center" />
-          <h2 className="text-center my-5">Add Place</h2>
-          <form onSubmit={signupForm.handleSubmit}>
-            <label htmlFor="">Name</label>
-            <input className="form-control mb-4 rounded-5" type="text" name="name" onChange={signupForm.handleChange} value={signupForm.values.name} />
-            <label htmlFor="">Discription</label>
-            <input className="form-control mb-4 rounded-5" type="text" name="discription" onChange={signupForm.handleChange} value={signupForm.values.email} />
+    <>
+    <meta charSet="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <div className="container">
+      <div className="item">
+        <div className="contact">
+          <div className="first-text">Add Tourist Places</div>
+          <img
+            src="https://www.uptourism.gov.in/images/photos.jpg"
+            alt=""
+            className="image"
+          />
+          <div className="social links">
+            <span className="secnd text" style={{ fontSize: "large" }}>
+              Connect with us:
+            </span>
+            <ul className="social-media">
+              <li>
+                <a href="#">
+                  <i className="bx bxl-facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="bx bxl-twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="bx bxl-youtube" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="bx bxl-instagram" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="submit-form">
+          <h4 className="third-text">Add Place</h4>
+          <form style={{ padding: "0 50px" }}>
+            <div className="input-box">
+              <input
+                type="text"
+                className="input"
+                placeholder="Name"
+                required=""
+              />
+              <label htmlFor="" />
+            </div>
+           
+           
+            <div className="input-box">
+              <textarea
+                name=""
+                className="input"
+                placeholder="Discription"
+                required=""
+                id="text"
+                cols={30}
+                rows={10}
+                defaultValue={""}
+              />
+              <label htmlFor="" />
+            </div>
+            <div>
             <label htmlFor="">Upload File</label>
             <input type="file" onChange={uploadFile} />
-            
-            
+            </div>
 
-            <button className="btn btn-danger w-100 mt-4 rounded-5">
+            <button type="upload" className="Upload">
               Upload
             </button>
           </form>
         </div>
       </div>
     </div>
+  </>
   );
 };
 

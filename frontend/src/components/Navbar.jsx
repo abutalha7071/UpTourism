@@ -40,11 +40,11 @@ const Navbar = () => {
   };
 
   return (
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <img src="https://www.uptourism.gov.in/images/logo-color.png" alt="Navbar Logo" className="navbar-logo" />
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -91,6 +91,7 @@ const Navbar = () => {
           
         </div>
       </div>
+    </nav>
     </nav>
   );
 };
