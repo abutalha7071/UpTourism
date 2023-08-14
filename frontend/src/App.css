@@ -60,7 +60,6 @@
     background: #fff;
     box-shadow: 0 0 20px 10px rgba(0, 0,0,4);
     border-radius: 20px;
-    
     overflow: hidden;
     grid-template-columns: repeat(2, 1fr);
     display: grid;
@@ -128,6 +127,7 @@ i {
     margin: 30px 0;
     position: static; 
     margin-top: 50px; 
+   
 }
 .input{
     width: 100%;
@@ -151,7 +151,7 @@ i {
     color: #fff;
 }
 .Submit{
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 5px;
     background: white;
 }
@@ -166,4 +166,9 @@ i {
     height: 50%;
     margin-top: 50px;
     margin-left: 20px;
+}
+.card{
+    margin-top: 10px;
+    margin-left: 10px;
+    
 }

@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <img src="https://www.uptourism.gov.in/images/logo-color.png" alt="Navbar Logo" className="navbar-logo" />
+      <img src="https://www.uptourism.gov.in/images/logo-color.png" alt="Navbar Logo" className="navbar-logo" style={{ height:"100px" }} />
       <div className="container-fluid">
         
         <button
@@ -83,6 +83,7 @@ const Navbar = () => {
                 Contact Us
               </NavLink>
             </li>
+            
 
             
             {showLoginOption()}
@@ -91,6 +92,7 @@ const Navbar = () => {
           
         </div>
       </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt87rYnAB8Ir_dOMReMpBR-0qqjxhPvrnbww&usqp=CAU" alt="Navbar Logo" className="ms-4 rounded-circle" style={{ height:"100px" }} />
     </nav>
     </nav>
   );

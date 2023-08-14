@@ -1,7 +1,7 @@
 import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
-import Login from './components/Login';
+import Login from "./components/Login";
 import Signup from './components/Signup';
 import ViewLocation from './components/ViewLocation';
 import AddPlace from './components/AddPlace';
@@ -25,8 +25,8 @@ function App() {
             <Route path='login' element={ <Login /> } />
             <Route path='signup' element={ <Signup /> } />
             <Route path='addplace' element={ <AddPlace /> } />
-            <Route path='viewlo' element={ <ViewLocation /> } />
-            <Route path='viewpl' element={ < ViewPlace /> } />
+            <Route path='viewlocation' element={ <ViewLocation /> } />
+            <Route path='viewplace' element={ < ViewPlace /> } />
             <Route path='contact' element={ <ContactUs /> } />
            
           </Routes>

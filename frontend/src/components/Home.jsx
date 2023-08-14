@@ -41,9 +41,6 @@ const Home = () => {
     <span className="visually-hidden">Next</span>
   </button>
   </div>
-  <div>
-  <img src="https://www.uptourism.gov.in/site/writereaddata/siteContent/202304111730045145rt.jpg" className="img-fluid" alt="..." />
-  </div>
   </div>
   
 
