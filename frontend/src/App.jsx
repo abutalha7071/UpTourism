@@ -10,6 +10,7 @@ import ContactUs from './components/ContactUs';
 import Navbar from './components/Navbar';
 import { Toaster } from 'react-hot-toast';
 import { UserProvider } from './UserContext';
+import UserAuth from './components/UserAuth';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
             <Route path='addplace' element={ <AddPlace /> } />
             <Route path='viewlocation' element={ <ViewLocation /> } />
             <Route path='viewplace' element={ < ViewPlace /> } />
-            <Route path='contact' element={ <ContactUs /> } />
+            <Route path='contact' element={<UserAuth><ContactUs /></UserAuth> } />
            
           </Routes>
           </UserProvider>

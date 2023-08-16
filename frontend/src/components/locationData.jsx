@@ -1,18 +1,28 @@
 const locations = [
     {
         name : 'Lucknow',
-        descrription: '',
+        descrription: 'Lucknow, the capital of Uttar Pradesh, lies in the middle of the Heritage Arc. This bustling city, famed for its Nawabi era finesse and amazing food, is a unique mix of the ancient and the modern. It is home to extraordinary monuments depicting a fascinating blend of ancient, colonial and oriental architecture.',
         image : 'https://www.uptourism.gov.in/images/charbagh-lucknow.jpg'
     },
     {
-        name : 'Lucknow',
+        name : 'Delhi',
         descrription: '',
-        image : 'https://www.uptourism.gov.in/images/charbagh-lucknow.jpg'
+        image : ''
     },
     {
-        name : 'Lucknow',
+        name : 'Agra',
         descrription: '',
-        image : 'https://www.uptourism.gov.in/images/charbagh-lucknow.jpg'
+        image : ''
+    },
+    {
+        name : 'Ayodhya',
+        descrription: '',
+        image : ''
+    },
+    {
+        name : 'Barabanki',
+        descrription: '',
+        image : ''
     },
 ];
 

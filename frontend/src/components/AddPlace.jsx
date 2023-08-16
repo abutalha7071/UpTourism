@@ -61,6 +61,7 @@ const Signup = () => {
 
     console.log(res.status);
   };
+  
 
   return (
     <>
