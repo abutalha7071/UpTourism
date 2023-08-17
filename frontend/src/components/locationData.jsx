@@ -5,11 +5,6 @@ const locations = [
         image : 'https://www.uptourism.gov.in/images/charbagh-lucknow.jpg'
     },
     {
-        name : 'Delhi',
-        descrription: '',
-        image : ''
-    },
-    {
         name : 'Agra',
         descrription: '',
         image : ''

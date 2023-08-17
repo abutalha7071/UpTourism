@@ -12,16 +12,16 @@ const Signup = () => {
   const signupForm = useFormik({
     initialValues: {
       name: '',
-      email: '',
-      password: ''
+      image: '',
+      description: ''
     },
 
     onSubmit: async (values) => { 
-      values.avatar = selImage;
+      values.image = selImage;
       console.log(values);
 
       // sending request to backend
-      const res = await fetch('http://localhost:5000/user/add', {
+      const res = await fetch('http://localhost:5000/place/add', {
         method: 'POST',
         body : JSON.stringify(values),
         headers: {
@@ -37,7 +37,7 @@ const Signup = () => {
           title : 'Signup Success!!',
           text: 'Now Login to Continue'
         });
-        navigate('/login');
+        // navigate('/login');
       }else{
         Swal.fire({
           icon : 'error',
@@ -65,10 +65,7 @@ const Signup = () => {
 
   return (
     <>
-    <meta charSet="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact us</title>
-    <link rel="stylesheet" href="style.css" />
+    
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -112,13 +109,17 @@ const Signup = () => {
         </div>
         <div className="submit-form">
           <h4 className="third-text">Add Place</h4>
-          <form style={{ padding: "0 50px" }}>
+
+          <form style={{ padding: "0 50px" }} onSubmit={signupForm.handleSubmit}>
             <div className="input-box">
               <input
                 type="text"
                 className="input"
                 placeholder="Name"
                 required=""
+                name="name"
+                onChange={signupForm.handleChange}
+                value={signupForm.values.name}
               />
               <label htmlFor="" />
             </div>
@@ -126,11 +127,12 @@ const Signup = () => {
            
             <div className="input-box">
               <textarea
-                name=""
+                name="description"
+                onChange={signupForm.handleChange}
+                value={signupForm.values.description}
                 className="input"
                 placeholder="Discription"
                 required=""
-                id="text"
                 cols={30}
                 rows={10}
                 defaultValue={""}

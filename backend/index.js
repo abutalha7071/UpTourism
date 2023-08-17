@@ -10,6 +10,7 @@ const cors = require('cors');
 // import routers
 const UserRouter = require('./routers/userRouter');
 const UtilRouter = require('./routers/util');
+const PlaceRouter = require('./routers/placeRouter');
 
 // middleware to convert json data to javascript object
 app.use(cors({
@@ -20,6 +21,7 @@ app.use(express.json());
 // middlewares
 app.use('/user', UserRouter);
 app.use('/util', UtilRouter);
+app.use('/place', PlaceRouter);
 
 app.use(express.static('./uploads'));
 
