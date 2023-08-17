@@ -143,9 +143,9 @@ const Signup = () => {
             <label htmlFor="">Upload File</label>
             <input type="file" onChange={uploadFile} />
             </div>
-
-            <button type="upload" className="Upload">
-              Upload
+            <br /><br />
+            <button className="btn btn-danger w-100 mt-4 rounded-4">
+              Add Place
             </button>
           </form>
         </div>

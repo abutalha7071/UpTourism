@@ -26,7 +26,7 @@ function App() {
             <Route path='login' element={ <Login /> } />
             <Route path='signup' element={ <Signup /> } />
             <Route path='addplace' element={ <AddPlace /> } />
-            <Route path='viewlocation/:index' element={ <ViewLocation /> } />
+            <Route path='viewlocation' element={ <ViewLocation /> } />
             <Route path='viewplace' element={ < ViewPlace /> } />
             <Route path='contact' element={<UserAuth><ContactUs /></UserAuth> } />
            
