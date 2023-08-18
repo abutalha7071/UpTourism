@@ -74,16 +74,10 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/viewplace">
-              View Place
-              </NavLink>
-            </li>
-            <li className="nav-item">
               <NavLink className="nav-link" to="/contact">
                 Contact Us
               </NavLink>
             </li>
-            
             
 
             

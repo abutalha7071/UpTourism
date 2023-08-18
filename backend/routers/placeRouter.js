@@ -39,8 +39,8 @@ router.get('/getbyid/:id', (req, res) => {
     });
 });
 
-router.get('/getbyemail/:email', (req, res) => {
-    Model.find({ email : req.params.email })
+router.get('/getbylocation/:location', (req, res) => {
+    Model.find({ location : req.params.location })
     .then((result) => {
         res.json(result);
     }).catch((err) => {

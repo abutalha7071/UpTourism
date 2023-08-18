@@ -51,7 +51,7 @@
   width: 100%;
 }
  
-.container{
+.mycontainer{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -72,10 +72,10 @@
     z-index: 1000;
 }
 .contact{
-    background-color:rgb(0, 213, 255);
+    background-color:rgb(0, 179, 255);
 }
 .submit-form{
-   background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?w=2000);
+    background-color:rgba(0, 217, 255, 0.95);
 }
 .first-text{
     padding-left: 20px;

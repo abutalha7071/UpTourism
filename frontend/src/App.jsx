@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import { Toaster } from 'react-hot-toast';
 import { UserProvider } from './UserContext';
 import UserAuth from './components/UserAuth';
+import ManageUser from './components/ManageUser';
 
 function App() {
   return (
@@ -27,8 +28,9 @@ function App() {
             <Route path='signup' element={ <Signup /> } />
             <Route path='addplace' element={ <AddPlace /> } />
             <Route path='viewlocation' element={ <ViewLocation /> } />
-            <Route path='viewplace' element={ < ViewPlace /> } />
+            <Route path='viewplace/:location' element={ < ViewPlace /> } />
             <Route path='contact' element={<UserAuth><ContactUs /></UserAuth> } />
+            <Route path='manageplaces' element={<ManageUser /> } />
            
           </Routes>
           </UserProvider>

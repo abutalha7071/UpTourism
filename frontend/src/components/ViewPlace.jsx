@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
 const ViewPlace = () => {
 
   const [places, setPlaces] = React.useState([]);
+  const {location} = useParams();
 
   const fetchPlaces = async () => {
-    const res = await fetch('http://localhost:5000/place/getall');
+    const res = await fetch('http://localhost:5000/place/getbylocation/'+location);
     console.log(res.status);
     if (res.status === 200) {
       const data = await res.json();
@@ -36,10 +38,7 @@ const ViewPlace = () => {
 
   return (
     <div className='div3'>
-      <div>
-        <h1 className="display-3 fw-bold text-center">LUCKNOW</h1>
-        <p className="display-5 fw-bold text-center">TOP PLACES</p>
-      </div>
+      
       <div className="container">
         <div className="row">
           {

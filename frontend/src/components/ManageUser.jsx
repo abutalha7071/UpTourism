@@ -9,7 +9,7 @@ const ManageUser = () => {
     const [userList, setUserList] = useState([]);
 
     const fetchUserData = async () => {
-        const res = await fetch('http://localhost:5000/user/getall');
+        const res = await fetch('http://localhost:5000/place/getall');
         console.log(res.status);
         if(res.status === 200){
             const data = await res.json();
@@ -24,7 +24,7 @@ const ManageUser = () => {
 
     const deleteUser = async (id) => {
         console.log(id);
-        const res = await fetch('http://localhost:5000/user/delete/'+id, {method : 'DELETE'});
+        const res = await fetch('http://localhost:5000/place/delete/'+id, {method : 'DELETE'});
 
         if(res.status === 200){
             fetchUserData();
@@ -37,9 +37,9 @@ const ManageUser = () => {
             <thead>
                 <tr>
                     <th>ID</th>
+                    <th>Image</th>
                     <th>Name</th>
-                    <th>Email</th>
-                    <th>Password</th>
+                    <th style={{width: '40%'}}>Description</th>
                     <th></th>
                     <th></th>
                 </tr>
@@ -49,9 +49,11 @@ const ManageUser = () => {
                     userList.map((user) => (
                         <tr>
                             <td>{user._id}</td>
+                            <td>
+                                <img height={40} src={'http://localhost:5000/'+user.image} />
+                            </td>
                             <td>{user.name}</td>
-                            <td>{user.email}</td>
-                            <td>{user.password}</td>
+                            <td>{user.description}</td>
                             <td>
                                 <button className='btn btn-danger' onClick={() => { deleteUser(user._id) }}>Delete User</button>
                             </td>
