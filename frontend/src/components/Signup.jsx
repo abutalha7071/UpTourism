@@ -76,7 +76,8 @@ const Signup = () => {
             <label htmlFor="">Password</label>
             <input className="form-control mb-4 rounded-5" type="password" name="password" onChange={signupForm.handleChange}  value={signupForm.values.password} />
             
-            
+            <label htmlFor="">Upload File</label>
+            <input type="file" onChange={uploadFile} />
 
             <button className="btn btn-danger w-100 mt-4 rounded-5">
               Signup
