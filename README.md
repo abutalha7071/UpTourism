@@ -1,2 +1,2 @@
 # UpTourism
-![](Screenshot(35).pn)
+![](Screenshot(35).png)
