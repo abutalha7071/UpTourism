@@ -26,8 +26,8 @@ function App() {
             <Route path='home' element={ <Home /> } />
             <Route path='login' element={ <Login /> } />
             <Route path='signup' element={ <Signup /> } />
-            <Route path='addplace' element={ <AddPlace /> } />
-            <Route path='viewlocation' element={ <ViewLocation /> } />
+            <Route path='addplace' element={ <UserAuth><AddPlace/></UserAuth> } />
+            <Route path='viewlocation' element={ <UserAuth><ViewLocation /></UserAuth> } />
             <Route path='viewplace/:location' element={ < ViewPlace /> } />
             <Route path='contact' element={<UserAuth><ContactUs /></UserAuth> } />
             <Route path='manageplaces' element={<ManageUser /> } />
