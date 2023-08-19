@@ -64,12 +64,14 @@ const Signup = () => {
 
 
   return (
+    
     <>
 
       <link
         href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
         rel="stylesheet"
       />
+      <div className="div1">
       <div className="mycontainer">
         <div className="item">
           <div className="contact">
@@ -137,6 +139,7 @@ const Signup = () => {
                 <option value="Varanasi">Varanasi</option>
                 <option value="Mathura">Mathura</option>
                 <option value="Ayodhya">Ayodhya</option>
+                <option value="Barabanki">Barabanki</option>
               </select>
 
 
@@ -165,6 +168,7 @@ const Signup = () => {
             </form>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

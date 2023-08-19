@@ -28,7 +28,7 @@ const ManageUser = () => {
 
         if(res.status === 200){
             fetchUserData();
-            toast.success('User Deleted Successfully 😁');
+            toast.success('Place Deleted Successfully 😁');
         }
     }
 
@@ -55,10 +55,10 @@ const ManageUser = () => {
                             <td>{user.name}</td>
                             <td>{user.description}</td>
                             <td>
-                                <button className='btn btn-danger' onClick={() => { deleteUser(user._id) }}>Delete User</button>
+                                <button className='btn btn-danger' onClick={() => { deleteUser(user._id) }}>Delete Place</button>
                             </td>
                             <td>
-                                <button className='btn btn-primary' onClick={ () => { navigate('/updateuser/'+user._id) } } >Edit User</button>
+                                <button className='btn btn-primary' onClick={ () => { navigate('/updateuser/'+user._id) } } >Edit Place</button>
                             </td>
                         </tr>
                     ))
@@ -69,7 +69,7 @@ const ManageUser = () => {
 
   return (
     <div>
-        <h1 className='text-center'>Manage User Data</h1>
+        <h1 className='text-center'>Manage Places Data</h1>
         <hr />
         <div className='container'>
             {displayUsers()}

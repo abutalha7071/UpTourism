@@ -11,6 +11,7 @@ const ContactUs = () => {
     href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     rel="stylesheet"
   />
+  <div className='div1'>
   <div className="mycontainer">
     <div className="item">
       <div className="contact">
@@ -85,6 +86,7 @@ const ContactUs = () => {
         </form>
       </div>
     </div>
+  </div>
   </div>
 </>
 

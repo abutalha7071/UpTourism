@@ -111,31 +111,7 @@ const Home = () => {
     {/* Section: Social media */}
     <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       {/* Left */}
-      <div className="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
-      </div>
-      {/* Left */}
-      {/* Right */}
-      <div>
-        <a href="" className="me-4 text-reset">
-          <i className="fab fa-facebook" ></i>
-        </a>
-        <a href="" className="me-4 text-reset">
-          <i className="fab fa-twitter" />
-        </a>
-        <a href="" className="me-4 text-reset">
-          <i className="fab fa-google" />
-        </a>
-        <a href="" className="me-4 text-reset">
-          <i className="fab fa-instagram" />
-        </a>
-        <a href="" className="me-4 text-reset">
-          <i className="fab fa-linkedin" />
-        </a>
-        <a href="" className="me-4 text-reset">
-          <i className="fab fa-github" />
-        </a>
-      </div>
+      
       {/* Right */}
     </section>
     {/* Section: Social media */}
@@ -152,8 +128,7 @@ const Home = () => {
                About Uttar Pradesh
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Uttar Pradesh is a state in northern India. With over 241 million inhabitants, it is the most populated state in India as well as the most populous country subdivision in the world more populous than all but four countries accounting for 16.5% of the total population of India. It was established in 1950 after India had become a republic.
             </p>
           </div>
           {/* Grid column */}
@@ -188,23 +163,23 @@ const Home = () => {
             {/* Links */}
             <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
             <p>
-              <a href="#!" className="text-reset">
-                Pricing
+              <a href="http://localhost:3000/login" className="text-reset">
+                Login
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                Settings
+              <a href="http://localhost:3000/contact#" className="text-reset">
+                Contact Us
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                Orders
+              <a href="http://localhost:3000/addplace" className="text-reset">
+                Add Place
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                Help
+              <a href="http://localhost:3000/viewlocation" className="text-reset">
+                View Location
               </a>
             </p>
           </div>
@@ -214,17 +189,18 @@ const Home = () => {
             {/* Links */}
             <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
             <p>
-              <i className="fas fa-home me-3" /> UP Tourism
+               UP Tourism
             </p>
             <p>
-              <i className="fas fa-envelope me-3" />
-               abutalhazakikhan12345@gmail.com
+            <a href="" className="text-reset">
+                abutalhazakikhan12345@gmail.com
+              </a>
             </p>
             <p>
-              <i className="fas fa-phone me-3" /> +91 9140477071
+               +91 9140477071
             </p>
             <p>
-              <i className="fas fa-print me-3" /> + 01 234 567 89
+               +91 8948326837
             </p>
           </div>
           {/* Grid column */}
