@@ -128,7 +128,7 @@ const Home = () => {
                About Uttar Pradesh
             </h6>
             <p>
-            Uttar Pradesh is a state in northern India. With over 241 million inhabitants, it is the most populated state in India as well as the most populous country subdivision in the world more populous than all but four countries accounting for 16.5% of the total population of India. It was established in 1950 after India had become a republic.
+            Uttar Pradesh is a state in northern India. With over 241 million inhabitants, it is the most populated state in India as well as the most populous country subdivision in the world more populous than all but four countries accounting for 16.5% of the total population of India.
             </p>
           </div>
           {/* Grid column */}
@@ -137,7 +137,7 @@ const Home = () => {
             {/* Links */}
             <h6 className="text-uppercase fw-bold mb-4">Location</h6>
             <p>
-              <a href="#!" className="text-reset">
+              <a href="http://localhost:3000/viewplace/Lucknow" className="text-reset">
                 Lucknow
               </a>
             </p>

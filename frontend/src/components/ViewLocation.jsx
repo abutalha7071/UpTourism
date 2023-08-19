@@ -28,7 +28,7 @@ const ViewLocation = () => {
               <div className="card-body">
                 <h5 className="card-title">Lucknow</h5>
                 <p className="card-text">
-                  Lucknow, the capital of Uttar Pradesh, lies in the middle of the Heritage Arc. This bustling city, famed for its Nawabi era finesse and amazing food, is a unique mix of the ancient and the modern. It is home to extraordinary monuments depicting a fascinating blend of ancient, colonial and oriental architecture.
+                  Lucknow, the capital of Uttar Pradesh, lies in the middle of the Heritage Arc. This bustling city, famed for its Nawabi era finesse and amazing food, is a unique mix of the ancient and the modern. It is home to extraordinary monuments depicting a fascinating blend of ancient, colonial and oriental architecture. Lucknow is also famous for its elaborate cuisine and 'Chikankaari' or exquisite shadow-work embroidery on fine muslin cloth.
                 </p>
                 <Link to="/viewplace/Lucknow" className="btn btn-primary">
                   View Places
@@ -87,7 +87,7 @@ const ViewLocation = () => {
         <div className="row">
           <div className="col-md-3">
             <div className="card" >
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL0MuefdG01JpZURjDOsiVwiUhGFmhYT0ErGdHCAX_2xlS2RSBlOtln55LfzFxI8yYyxA&usqp=CAU" className="card-img-top" alt="..." />
+              <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcR-Nbu9wv3UudluGjs3pegVs46lOqI2HypmBuqYA-uwoNrijCxMN-neFaEgwqlrbr4Y" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Varanasi</h5>
                 <p className="card-text">
@@ -102,11 +102,11 @@ const ViewLocation = () => {
           </div>
           <div className='col-md-3'>
             <div className="card" >
-              <img src="https://hindi.cdn.zeenews.com/hindi/sites/default/files/2021/07/29/884668-beautiful-lucknow.jpg?im=FitAndFill=(1200,900)" className="card-img-top" alt="..." />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Vishram_Ghat.jpg" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Mathura</h5>
                 <p className="card-text">
-                  Lakhimpur Kheri is the largest district in Uttar Pradesh, India, on the border with Nepal. Its administrative capital is the city of Lakhimpur. Lakhimpur Kheri district is a part of Lucknow division, with a total area of 7,680 square kilometres (2,970 sq mi).
+                Mathura is a city and the administrative headquarters of Mathura district in the Indian state of Uttar Pradesh. It is the birthplace of Krishna which is located at the centre of Braj or Brij-bhoomi, called Shri Krishna Janma-Bhoomi, literally: 'Lord Krishna's birthplace'. It is one of the Sapta Puri, the seven cities considered holy by Hindus. The Keshav Dev Temple was built in ancient times on the site of Krishna's birthplace (an underground prison).
                 </p>
                 <Link to="/viewplace/Mathura" className="btn btn-primary">
                   View Places
@@ -117,38 +117,35 @@ const ViewLocation = () => {
           </div>
           <div className='col-md-3'>
             <div className="card" >
-              <img src="https://hindi.cdn.zeenews.com/hindi/sites/default/files/2021/07/29/884668-beautiful-lucknow.jpg?im=FitAndFill=(1200,900)" className="card-img-top" alt="..." />
+              <img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSAyB8anXGiio8HcqQIyKeQDxyQotHeyDwpEDWjmfFqs9K-bpgViK_Td8kfTM3wJsYn" className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Lucknow</h5>
+                <h5 className="card-title">Prayagraj</h5>
                 <p className="card-text">
-                  Lucknow, the capital of Uttar Pradesh, lies in the middle of the Heritage Arc. This bustling city, famed for its Nawabi era finesse and amazing food, is a unique mix of the ancient and the modern. It is home to extraordinary monuments depicting a fascinating blend of ancient, colonial and oriental architecture.
+                Prayagraj formerly Allahabad or Ilahabad or Prayag, is a metropolis in the Indian state of Uttar Pradesh. It is the administrative headquarters of the Prayagraj district—the most populous district in the state and 13th most populous district in India—and the Prayagraj division. The city is the judicial capital of Uttar Pradesh with Allahabad High Court being the highest judicial body in the state.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="/viewplace/Prayagraj" className="btn btn-primary">
                   View Places
-                </a>
+                </Link>
               </div>
 
             </div>
           </div>
           <div className='col-md-3'>
             <div className="card" >
-              <img src="https://hindi.cdn.zeenews.com/hindi/sites/default/files/2021/07/29/884668-beautiful-lucknow.jpg?im=FitAndFill=(1200,900)" className="card-img-top" alt="..." />
+              <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/c3/d6/16/shyamnath-mandir.jpg?w=500&h=400&s=1" className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Lucknow</h5>
+                <h5 className="card-title">Sitapur</h5>
                 <p className="card-text">
-                  Lucknow, the capital of Uttar Pradesh, lies in the middle of the Heritage Arc. This bustling city, famed for its Nawabi era finesse and amazing food, is a unique mix of the ancient and the modern. It is home to extraordinary monuments depicting a fascinating blend of ancient, colonial and oriental architecture.
+                Sitapur is a city and a municipal board in Sitapur district in the state of Uttar Pradesh, India. It is in the Lucknow Division. The town is located on the banks of river Sarayan, halfway between Lucknow and Shahjahanpur and is well connected to state capital Lucknow by the National Highway No. 24. According to the 2011 census, the population of Sitapur city is 104,000.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="/viewplace/Sitapur" className="btn btn-primary">
                   View Places
-                </a>
+                </Link>
               </div>
-
             </div>
           </div>
         </div>
-
       </div>
-      
       <>
   {/* Footer */}
   <footer className="text-center text-lg-start bg-light text-muted">
@@ -267,7 +264,7 @@ const ViewLocation = () => {
   </footer>
   {/* Footer */}
 </>
-      </div>
+    </div>
 
   )
 }
