@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <img src="https://www.uptourism.gov.in/images/logo-color.png" alt="Navbar Logo" className="navbar-logo" style={{ height:"100px" }} />
+      <img src="https://uptourism.gov.in/images/logo-color.png" alt="Navbar Logo" className="navbar-logo" style={{ height:"100px" }} />
       <div className="container-fluid">
         
         <button

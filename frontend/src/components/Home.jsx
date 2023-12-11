@@ -87,7 +87,7 @@ const Home = () => {
         <div className="row">
           <div className="col-md-2">
             <div className="card" >
-                <img src="https://www.uptourism.gov.in/site/writereaddata/siteContent/202203291644477335jaivir-singh.jpg" className="ms-1 rounded-circle" alt="..." />
+                <img src="https://uptourism.gov.in/site/writereaddata/siteContent/202203291644477335jaivir-singh.jpg" className="ms-1 rounded-circle" alt="..." />
               <div className="card-body">
                  <h5 className="display-7 fw-bold text-center">Shri Jaiveer Singh</h5>
                  <p className="card-text">Hon'ble Cabinet Minister Department of Tourism Uttar Pradesh</p>
@@ -96,7 +96,7 @@ const Home = () => {
           </div>
           <div className="col-md-2">
             <div className="card" >
-                <img src="https://www.uptourism.gov.in/images/cm.jpg" className="ms-1 rounded-circle" alt="..." />
+                <img src="https://uptourism.gov.in/images/cm.jpg" className="ms-1 rounded-circle" alt="..." />
               <div className="card-body">
                  <h5 className="display-7 fw-bold text-center">Yogi Adityanath</h5>
                  <p className="card-text">Hon'ble Chief Minister Uttar Pradesh</p>

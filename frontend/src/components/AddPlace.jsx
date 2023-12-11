@@ -77,7 +77,7 @@ const Signup = () => {
           <div className="contact">
             <div className="first-text">Add Tourist Places</div>
             <img
-              src="https://www.uptourism.gov.in/images/photos.jpg"
+              src="https://uptourism.gov.in/images/photos.jpg"
               alt=""
               className="image"
             />
